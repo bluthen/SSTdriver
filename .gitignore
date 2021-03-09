@@ -1,20 +1,17 @@
-# For PCBs designed using KiCad: http://www.kicad-pcb.org/
-
-# Temporary files
+*~
 *.000
+_autosave-*
 *.bak
 *.bck
-*.kicad_pcb-bak
-*~
-_autosave-*
-*.tmp
-
-# Netlist files (exported from Eeschema)
-*.net
-
-# Autorouter files (exported from Pcbnew)
+*.dsn
 .dsn
-
-# Exported BOM files
-*.xml
-*.csv
+fp-info-cache
+*.kicad_pcb-bak
+*.kicad_prl
+*.kicad_sch-bak
+*.net
+*-save.kicad_pcb
+*-save.pro
+*.sch-bak
+*.ses
+*.tmp
